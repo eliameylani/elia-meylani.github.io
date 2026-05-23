@@ -1,28 +1,97 @@
-.project {
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #0f172a;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
     margin-bottom: 10px;
 }
 
+.hero h2 {
+    font-size: 18px;
+    color: #475569;
+}
+
+.hero p {
+    color: #64748b;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* PROJECT */
+.project {
+    margin-bottom: 15px;
+}
+
 .project h3 {
-    margin-bottom: 5px;
+    margin: 0 0 5px 0;
 }
 
 .project p {
-    color: #475569;
-    margin-bottom: 5px;
+    color: #64748b;
+    margin: 0 0 5px 0;
 }
 
-.project-link {
+.project a {
     color: #2563eb;
+    font-weight: 600;
     text-decoration: none;
-    font-weight: bold;
 }
 
-.project-link:hover {
+.project a:hover {
     text-decoration: underline;
 }
 
-hr {
-    border: none;
-    border-top: 1px solid #e2e8f0;
-    margin: 15px 0;
+/* EXPERIENCE */
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    margin-bottom: 5px;
+}
+
+.experience p {
+    color: #64748b;
+    margin-bottom: 8px;
+}
+
+.experience ul {
+    padding-left: 20px;
+}
+
+.experience li {
+    margin-bottom: 5px;
+    color: #334155;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #94a3b8;
 }
